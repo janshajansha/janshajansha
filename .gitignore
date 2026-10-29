@@ -1,0 +1,69 @@
+# Dependencies
+node_modules/
+
+# Expo generated files
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Local environment variables
+.env
+.env.*
+!.env.example
+
+# Firebase Admin / Google service-account credentials
+*-firebase-adminsdk-*.json
+service-account*.json
+serviceAccountKey.json
+
+# Android signing credentials
+*.jks
+*.keystore
+!debug.keystore
+
+# Apple signing credentials
+*.p8
+*.p12
+*.mobileprovision
+*.provisionprofile
+*.cer
+
+# EAS local credentials
+credentials.json
+
+# Android generated files and machine configuration
+android/*
+
+# iOS dependencies and generated files
+ios/*
+DerivedData/
+*.xcuserstate
+xcuserdata/
+
+# Metro / React Native generated files
+.metro-health-check*
+*.jsbundle
+
+# Build artifacts
+*.apk
+*.aab
+*.ipa
+
+# Test coverage
+coverage/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.idea/
+*.swp
+*.swo

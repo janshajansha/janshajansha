@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "338468949637",
+    "project_id": "ev360-94114",
+    "storage_bucket": "ev360-94114.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338468949637:android:6e385a1d938d39ee5663ec",
+        "android_client_info": {
+          "package_name": "com.ev360.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6vqA_kpXc6xeCIsIjNK_QA2bBkNx2Y-U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

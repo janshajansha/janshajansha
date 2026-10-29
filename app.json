@@ -1,0 +1,74 @@
+{
+    "expo": {
+        "name": "EV360",
+        "slug": "ev360-app",
+        "version": "1.6.0",
+        "orientation": "portrait",
+        "icon": "./assets/icon.png",
+        "userInterfaceStyle": "automatic",
+        "splash": {
+            "image": "./assets/splash-icon.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#221816"
+        },
+        "assetBundlePatterns": ["**/*"],
+        "ios": {
+            "supportsTablet": true,
+            "bundleIdentifier": "com.ev360.app",
+            "infoPlist": {
+                "NSLocationWhenInUseUsageDescription": "EV360 needs your location to submit service requests and show your assigned technician on the map."
+            }
+        },
+        "android": {
+            "adaptiveIcon": {
+                "foregroundImage": "./assets/adaptive-icon.png",
+                "backgroundColor": "#221816"
+            },
+            "package": "com.ev360.app",
+            "versionCode": 1,
+            "googleServicesFile": "./google-services.json",
+            "permissions": [
+                "ACCESS_FINE_LOCATION",
+                "ACCESS_COARSE_LOCATION",
+                "INTERNET",
+                "CAMERA",
+                "READ_EXTERNAL_STORAGE",
+                "WRITE_EXTERNAL_STORAGE"
+            ],
+            "config": {
+                "googleMaps": {
+                    "apiKey": "AIzaSyBzNT4zyOBKYVKqxg-K0oMQyt8vkXweNZo"
+                }
+            },
+            "softwareKeyboardLayoutMode": "pan"
+        },
+        "web": {
+            "favicon": "./assets/favicon.png"
+        },
+        "plugins": [
+            "expo-secure-store",
+            [
+                "expo-location",
+                {
+                    "locationWhenInUsePermission": "EV360 needs your location to submit service requests and show your assigned technician on the map."
+                }
+            ],
+            [
+                "expo-notifications",
+                {
+                    "icon": "./assets/notification-icon.png",
+                    "color": "#7FBF31"
+                }
+            ],
+            "expo-font",
+            "expo-asset"
+        ],
+        "extra": {
+            "apiBaseUrl": "https://ev360ghana.com/site/",
+            "googleMapsApiKey": "AIzaSyBzNT4zyOBKYVKqxg-K0oMQyt8vkXweNZo",
+            "eas": {
+                "projectId": "63fb4f58-f7c2-4b06-95c6-20f82eae9aff"
+            }
+        }
+    }
+}
